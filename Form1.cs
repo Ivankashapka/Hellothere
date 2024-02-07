@@ -36,5 +36,23 @@ namespace WindowsFormsApp1
              textBox1.ForeColor = Color.FromArgb(255, rgb[0], rgb[1], rgb[2]);
            
         }
+        private void SayGoodbay_click(object sender, EventArgs e)
+        {
+
+            // Declare an array of bytes and fill it with random numbers
+            byte[] rgb = GetRandomBytes(3);
+            textBox2.ForeColor = Color.FromArgb(255, rgb[0], rgb[1], rgb[2]);
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
